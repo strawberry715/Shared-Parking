@@ -1,0 +1,33 @@
+<!--pages/have/have.wxml-->
+  <view class="container">
+    <swiper indicator-dots='true' indicator-color='#58FAF4' indicator-active-color='#08298A' autoplay interval="3000">
+      <swiper-item><image src='/img/have/swiper/1.jpg'></image></swiper-item>
+      <swiper-item><image src='/img/have/swiper/2.jpg'></image></swiper-item>
+      <swiper-item><image src='/img/have/swiper/3.jpg'></image></swiper-item>
+      <swiper-item><image src='/img/have/swiper/4.jpg'></image></swiper-item>
+    </swiper>
+    <view class="contentposi">
+      <view class="contentrow">
+        <view class="a" catchtap="toRent">
+          <text class="tipleft">我要\n出租</text> 
+        </view>
+        <view class="b" catchtap="toFrent">
+          <text class="tipright">我要\n禁租</text>
+        </view>
+      </view>
+      <view class="battle">
+        <image src="/img/have/battery_icon.png"></image>
+        <text class="tipcenter">电量：{{electricity}}%</text>
+      </view>
+      <view class="contentrow">
+        <view class="c">
+          <text class="tipleft">蓝牙\n开锁</text> 
+        </view>
+        <view class="d" catchtap="toDetails">
+          <text class="tipright">车位\n详情</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  

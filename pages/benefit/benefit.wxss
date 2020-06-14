@@ -1,0 +1,54 @@
+/* pages/benefit/benefit.wxss */
+page{
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.message{
+  width: 90%;
+  height: 440rpx;
+  margin-left: 5%;
+  margin-top: 40rpx;
+  border-radius: 6rpx;
+  background-color: white;
+}
+.title{
+  height: 80rpx;
+}
+image{
+  float: left;
+  width: 50rpx;
+  height: 50rpx;
+  margin: 15rpx 20rpx 0 20rpx;
+}
+.text1{
+  font-size: 36rpx;
+  line-height: 80rpx;
+  margin-left: 35rpx;
+}
+.changemoney{
+  margin-top: 40rpx;
+  display:block;
+  text-align: center;
+  font-size: 26rpx;
+  letter-spacing: 3rpx;
+  opacity: 0.7; 
+}
+.money{
+  display: block;
+  font-weight: bold;
+  font-size: 60rpx;
+  text-align: center;
+  margin-bottom: 60rpx;
+}
+.time{
+  float: left;
+  text-indent: 20rpx;
+}
+.text2{
+  margin-left: 35rpx;
+  opacity: 0.7;
+  letter-spacing: 2rpx;
+}

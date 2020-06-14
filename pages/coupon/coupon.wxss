@@ -1,0 +1,23 @@
+/* pages/coupon/coupon.wxss */
+page{
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+image{
+  width: 256rpx;
+  height: 256rpx;
+  opacity: 0.6;
+  margin: 0 auto;
+  margin-top: 250rpx;
+}
+text{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+  opacity: 0.6;
+}

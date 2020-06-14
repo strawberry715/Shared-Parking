@@ -1,0 +1,43 @@
+<!--pages/rent/rent.wxml-->
+<view class="container">
+  <view class="title">我要出租</view>
+  <view class="content">
+    <view>
+      车位主昵称：<text>{{name}}</text>
+    </view>
+    <view>
+      车位地址：<text class="prompt">{{address}}</text>
+      <image src="/img/rent/position.png" class="positionImg" catchtap="toChooseLocation"></image>
+    </view>
+     <view>
+      联系电话：
+      <input type="text" placeholder-class="placeholder" placeholder="请输入车位主联系电话" bindinput="monitortel"></input>
+    </view>
+    <view>
+      蓝牙名称：
+      <input type="text" placeholder-class="placeholder" placeholder="请输入车位锁的蓝牙名称" bindinput="monitorbluname"></input>
+    </view>
+    <view>上传照片</view>
+  </view>
+  <view class="content contentTime">
+    <text>选择出租时间</text>
+    <text>当前选择</text>
+    <view class="choosetime">
+      <picker mode="date" value="{{date}}" start="2019-01-01" end="2030-01-01" bindchange="bindDateChange">
+        <text class="contenttext">开始时间: {{startdate}}</text>
+      </picker>
+      <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindTimeChange">
+        <text class="contenttext">{{starttime}}</text>
+      </picker>
+    </view>
+    <view class="choosetime">
+      <picker mode="date" value="{{date}}" start="2019-01-01" end="2030-01-01" bindchange="bindendDateChange">
+        <text class="contenttext">结束时间: {{enddate}}</text>
+      </picker>
+      <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindendTimeChange">
+        <text class="contenttext">{{endtime}}</text>
+      </picker>
+    </view>
+  </view>
+  <button bindtap="toRent">确认出租</button>
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    
+    "pages/parknote/parknote",
+    "pages/assess/assess",
+    "pages/openblue/openblue",
+    "pages/order/order",
+    "pages/rentNext/rentNext",
+    "pages/searchmap/searchmap",
+    "pages/rent/rent",
+   
+    "pages/want/want",
+    "pages/have/have",
+    "pages/details/details",
+    "pages/coupon/coupon",
+    "pages/benefit/benefit",
+    "pages/wallet/wallet",
+    "pages/suggest/suggest",
+    "pages/Frent/Frent",
+    "pages/choosetime/choosetime",
+    "pages/navicate/navicate"
+  ],
+  "tabBar": {
+    "selectedColor": "#1E90FF",
+    "list": [
+      {
+        "pagePath": "pages/want/want",
+        "text": "我要车位",
+        "iconPath": "/img/icon/want_p.png",
+        "selectedIconPath": "/img/icon/want_pl.png"
+      },
+      {
+        "pagePath": "pages/have/have",
+        "text": "我有车位",
+        "iconPath": "/img/icon/have_p.png",
+        "selectedIconPath": "/img/icon/have_pl.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/icon/mine.png",
+        "selectedIconPath": "/img/icon/mine_l.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

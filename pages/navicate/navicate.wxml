@@ -1,0 +1,8 @@
+<!--pages/Navicate/Navicate.wxml-->
+<view class="searchContainer">
+  <view class="search_map">
+    <map subkey='KV2BZ-BNIW3-RCS3F-YO244-SFR4K-C7BTQ' markers="{{markers}}"
+    latitude="29.8172" longitude="{{121.547}}" bindtap="move"></map>
+  </view>
+</view>
+

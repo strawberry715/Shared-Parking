@@ -1,0 +1,29 @@
+/* pages/openblue/openblue.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+button{
+  width: 40%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.btn1{
+  margin-top: 50rpx;
+  background-color:rgb(18,229,162);
+}
+.btn2{
+  margin-top: 50rpx;
+  background-color:rgb(87,178,249);
+}
+.btn3{
+  width: 90%;
+  background-color:rgb(138,148,245);
+}
+.btn4{
+  background-color:rgb(252,157,93);
+}
+.btn5{
+  background-color:rgb(254,111,129);
+}

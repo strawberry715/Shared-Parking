@@ -1,0 +1,5 @@
+<!--pages/coupon/coupon.wxml-->
+<view class="container">
+  <image src="/img/mine/emoji.png"></image>
+  <text>诶呀~~暂无优惠券数据哦，快去获取吧(*￣︶￣)</text>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/parknote/parknote.wxml-->
+<view class="parknoteContainer">
+  <view class="message" wx:for='{{parknotes}}' wx:for='{{parknotes}}' data-index='{{index}}'>
+    <image src="/img/parknote/parknote_icon.png"></image>
+    <view class="textContainer">
+      <text>订单编号：{{item.id}}</text>
+      <text>车位信息：{{item.address}}</text>
+      <text>租用时间：{{item.time}}</text>
+      <text>订单状态：{{item.state}}</text>
+      <view class="right">
+        <text>去评价</text>
+        <image src="/img/parknote/left.png" catchtap="toAssess"></image>
+      </view>
+    </view>
+  </view>
+</view>

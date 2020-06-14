@@ -1,0 +1,28 @@
+<!--pages/rentNext/rentNext.wxml-->
+<view class="container">
+  <view class="content contentTime">
+    <text>选择租用时间</text>
+    <!-- <text>当前选择</text> -->
+    <view class="choosetime">
+      <picker mode="date" value="{{date}}" start="2019-01-01" end="2030-01-01" bindchange="bindDateChange">
+        <text class="contenttext">开始时间: {{startdate}}</text>
+      </picker>
+      <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindTimeChange">
+        <text class="contenttext">{{starttime}}</text>
+      </picker>
+    </view>
+    <view class="choosetime">
+      <picker mode="date" value="{{date}}" start="2019-01-01" end="2030-01-01" bindchange="bindendDateChange">
+        <text class="contenttext">结束时间: {{enddate}}</text>
+      </picker>
+      <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindendTimeChange">
+        <text class="contenttext">{{endtime}}</text>
+      </picker>
+    </view>
+  </view>
+  <view class="renttime">
+    <text>当前可租用时间</text>
+    <text class="timetext">2020-5-20 12:00 - 2020-5-20 19:00</text>
+  </view>
+  <button catchtap="choosetime">确认选择时间</button>
+</view>

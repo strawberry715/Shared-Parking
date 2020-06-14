@@ -1,0 +1,46 @@
+/* pages/searchmap/searchmap.wxss */
+.searchmapContainer{
+  display: flex;
+  flex-direction: column;
+}
+map{
+  width: 100%;
+  height: 100vh;
+}
+.search_icon{
+  width:100rpx;
+  height:100rpx;
+}
+.search_iconContainer{
+  padding-bottom: 4rpx;
+  padding-left: 4rpx;
+  width:100rpx;
+  height:100rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  position: absolute;
+  bottom:200rpx;
+  right:50rpx;
+  border-radius:50%;
+  border: 2rpx solid #1E90FF;
+}
+.showpark{
+  width:100rpx;
+  height:100rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  position: absolute;
+  bottom:80rpx;
+  right:50rpx;
+  border-radius:50%;
+  border: 2rpx solid #1E90FF;
+}
+.showparktext{
+  width:200rpx;
+  height:30rpx;
+  line-height: 80rpx;
+  position: absolute;
+  bottom:70rpx;
+  right:5rpx;
+  font-size: 32rpx;
+}

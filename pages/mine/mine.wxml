@@ -1,0 +1,43 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view class="top">
+    <image src="/img/mine/bg.jpeg" class="head"></image>
+    <text class="headtext">strawberry</text>
+  </view>
+  <view class="center">
+    <view class="money extra">
+      <text class="coins">{{money}}</text>
+      <view class="text_top">
+        <image src="/img/mine/account.png" class="img_top"></image>余额(元)
+      </view>
+    </view>
+    <view class="money benefit">
+      <text class="coins coins_b">{{earnings}}</text>
+      <view class="text_top">
+        <image src="/img/mine/change.png" class="img_top"></image>收益(元)
+      </view>
+    </view>
+  </view>
+  <view class="content">
+      <view class="content_inner" catchtap="toWallet">
+        <image src="/img/mine/wallet.png" class="img"></image>
+        我的钱包
+        <image src="/img/icon/arrow_r.png"></image></view>
+      <view class="content_inner" catchtap="toBenefit">
+        <image src="/img/mine/benefit.png" class="img"></image>
+        收益明细
+        <image src="/img/icon/arrow_r.png"></image></view>
+      <view class="content_inner">
+        <image src="/img/mine/car.png" class="img"></image>
+        我的车辆
+        <text class="license">浙G.M5R28</text></view>
+      <view class="content_inner" catchtap="toCoupon">
+        <image src="/img/mine/coupon.png" class="img"></image>
+        优惠券
+        <image src="/img/icon/arrow_r.png"></image></view>
+      <view class="content_inner" catchtap="toSuggest">
+        <image src="/img/mine/suggest.png" class="img"></image>
+        意见反馈
+        <image src="/img/icon/arrow_r.png"></image></view>
+    </view>
+</view>

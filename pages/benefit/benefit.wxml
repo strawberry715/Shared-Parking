@@ -1,0 +1,15 @@
+<!--pages/benefit/benefit.wxml-->
+<view class="container">
+  <view class="message" wx:for='{{benefitdetails}}' data-index='{{index}}'>
+    <view class="title">
+      <text class="text1">{{item.state}}</text>
+    </view>
+    <view>
+      <text class="changemoney">交易金额</text>
+      <text class="money">￥{{item.income}}.00</text>
+    </view>
+      <text class="text2">订单编号：</text><text>{{item.numbers}}\n</text>
+      <text class="text2">预定日期：</text><text>{{item.time}}\n</text>
+      <text class="text2">预定时间：</text><text>{{item.creatTime}}-{{item.overTime}}</text>
+  </view>
+</view>

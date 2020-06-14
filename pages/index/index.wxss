@@ -1,0 +1,36 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  /* background-color: #1E90FF; */
+}
+.indexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  font-size: 32rpx;
+  border: 1px solid #999;
+  background-color:#1E90FF ;
+}
+.avatar{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+  margin: 100rpx 0;
+}
+.userName{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin: 100rpx 0;
+}
+.goStudy{
+  width: 220rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  border: 1px solid #999;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+}

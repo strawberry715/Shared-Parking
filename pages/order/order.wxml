@@ -1,0 +1,37 @@
+<!--pages/order/order.wxml-->
+<view class="orderContainer">
+  <view class="textContainer">
+    <view class="carText">
+      <text class="informationText">车位地址:</text>
+      <text class="getText">{{address}}</text>
+    </view>
+    <view class="time">
+      <text class="informationText" decode="true">预约日期:</text>
+      <picker mode="date" value="{{date}}" start="2019-01-01" end="2030-01-01" bindchange="bindDateChange">{{date}}</picker>
+      <!-- <image src="/img/order/arrow_r.png" bindtap="toChoosetime"></image> -->
+    </view>
+    <view>
+      <view class="time">
+        <text class="informationText" decode="true">预约时间:</text>
+        <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindTimeChange">
+          <text class="contenttext">{{starttime}} - </text>
+        </picker>
+        <picker mode="time" value="{{time}}" start="00:00" end="21:00" bindchange="bindendTimeChange">
+          <text class="contenttext">{{endtime}}</text>
+        </picker>
+      </view>
+    </view>
+    <view class="blocktext">
+      <text class="informationText">价格详情:</text>
+      <text class="getText">10元/小时</text>
+    </view>
+    <view class="blocktext">
+      <text class="informationText">联系车主:</text>
+      <text class="getText">13105583675</text>
+    </view>
+  </view>
+  <view class="btnContainer">
+    <button class="btn_pay" catchtap="toPaymoney">支付</button>
+    <button class="btn_cancer">取消预约</button>
+  </view>
+</view>

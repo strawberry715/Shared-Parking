@@ -1,0 +1,47 @@
+/* pages/rentNext/rentNext.wxss */
+page{
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content{
+  font-size: 40rpx;
+  background-color: white;
+  width: 95%;
+  border-radius: 8rpx;
+  margin-left: 2.5%;
+  line-height: 100rpx;
+  text-indent: 20rpx;
+  letter-spacing: 1rpx;
+}
+.choosetime{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 20rpx;
+  background-color: rgb(30,144,255);
+  border-radius:50rpx;
+}
+.contenttext{
+  font-size: 32rpx;
+  color: #666;
+}
+.renttime{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  background-color: #fff;
+  margin-left: 2.5%;
+  margin-top:10rpx;
+  border-radius: 8rpx;
+}
+.timetext{
+  font-size:35rpx;
+  color: #666;
+}

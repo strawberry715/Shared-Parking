@@ -1,0 +1,70 @@
+/* pages/order/order.wxss */
+page{
+  background-color: #eee;
+}
+.orderContainer{
+  display: flex;
+  flex-direction: column;
+}
+.textContainer{
+  width: 90%;
+  margin:10rpx auto;
+  border-radius: 10rpx;
+  background-color: #fff;
+  text-indent:10rpx;
+}
+.blocktext{
+  border-bottom: 2rpx solid #ddd;
+  height:150rpx;
+  line-height: 150rpx;
+}
+.gettimeImg image{
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+  margin-top:45rpx;
+}
+.informationText{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.carText{
+  height:120rpx;
+  line-height:60rpx;
+  padding-bottom:20rpx;
+  text-indent:10rpx;
+  border-bottom: 2rpx solid #ddd;
+}
+.getText{
+  font-size: 36rpx;
+  text-indent:10rpx;
+}
+.btnContainer{
+  display: flex;
+  flex-direction: row;
+}
+.btnContainer button{
+  width: 45%;
+  margin:0 auto;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  margin:20rpx auto;
+}
+.btn_pay{
+  background-color:#1E90FF;
+  color:#fff;
+}
+.btn_cancer{
+  background-color:#fff;
+  border:2rpx solid #1E90FF;
+  color: #1E90FF ;
+}
+.time{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 2rpx solid #eee;
+  font-size: 32rpx;
+}

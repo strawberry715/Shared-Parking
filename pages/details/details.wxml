@@ -1,0 +1,27 @@
+<!--pages/details/details.wxml-->
+<view class="container">
+  <view class="title">车位详情</view>
+  <view class="content">
+    <view>
+      车位主昵称：<text>{{name}}</text>
+    </view>
+    <view>
+      车位地址：<text>{{address}}</text>
+    </view>
+    <view>
+      联系电话：<text>{{telephone}}</text>
+    </view>
+    <view>
+      蓝牙名称：<text>{{bluename}}</text>
+    </view>
+    <view>
+      车位锁电量：<text>{{electricity}}%</text>
+    </view>
+    <view>
+      车位收益：<text>￥{{income}}</text>
+    </view>
+    <view>
+      上次登录时间：<text class="time">{{lastlogin}}</text>
+    </view>
+  </view>
+</view>

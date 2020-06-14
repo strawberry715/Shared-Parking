@@ -1,0 +1,61 @@
+/* pages/wallet/wallet.wxss */
+.walletContainer{
+  display: flex;
+  flex-direction: column;
+}
+.cash{
+  text-align: center;
+  margin:100rpx auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 50rpx;
+  color:rgb(253,76,1);
+}
+.cash image{
+  width:160rpx;
+  height:160rpx;
+  margin:10rpx auto;
+}
+
+
+.invest1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 96%;
+  margin:1rpx auto;
+}
+.btnContainer{
+  width:31%;
+  height:120rpx;
+  line-height: 120rpx;
+  font-size:50rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.btnSelected{
+  background-color: rgb(30,144,255);
+  color: #fff;
+}
+.invest3{
+  height: 120rpx;
+}
+input{
+  margin:1rpx auto;
+  font-size: 50rpx;
+  height: 100rpx;
+  line-height: 120rpx;
+  text-align: center;
+  border: 1rpx solid #eee;
+  border-radius: 10rpx;
+}
+.pay{
+  width: 96%;
+  margin-top:20rpx;
+  background-color: rgb(30,144,255);
+  border-radius:50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+<!--pages/searchmap/searchmap.wxml-->
+<view class="searchmapContainer">
+  <view class="search">
+    <map class="searchmap" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" bindmarkertap="markertap"></map>
+  </view>
+  <view class="search_iconContainer">
+    <image class="search_icon" src="/img/search/search_icon.png" catchtap="toSearchLoaction"></image>
+  </view>
+  <!-- <view class="showparktext"> -->
+    <image catchtap="showParker" src="/img/searchmap/parking.png"  class="showpark">显示</image>
+    <text class="showparktext">点击显示车位</text>
+  <!-- </view> -->
+</view>

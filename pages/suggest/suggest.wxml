@@ -1,0 +1,16 @@
+<!--pages/suggest/suggest.wxml-->
+<view class="container">
+  <view class="title">
+    请选择反馈内容
+  </view>
+  <view class="content">
+    <view class="borderTop">无法打开小程序<image src="/img/icon/arrow_r.png"></image></view>
+    <view>小程序闪退<image src="/img/icon/arrow_r.png"></image></view>
+    <view>卡顿<image src="/img/icon/arrow_r.png"></image></view>
+    <view>黑屏白屏<image src="/img/icon/arrow_r.png"></image></view>
+    <view>死机<image src="/img/icon/arrow_r.png"></image></view>
+    <view>界面错位<image src="/img/icon/arrow_r.png"></image></view>
+    <view>界面加载慢<image src="/img/icon/arrow_r.png"></image></view>
+    <view>其他异常<image src="/img/icon/arrow_r.png"></image></view>
+  </view>
+</view>

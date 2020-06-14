@@ -1,0 +1,21 @@
+<!--pages/choosetime/choosetime.wxml-->
+<view class="container">
+  <view class="choosecontainer">
+    <view class="title">
+      选择时间
+    </view>
+    <view class="content">
+        <view class="invest1">
+          <view class="btnContainer" wx:for='{{catches}}'>
+            <button class="btn {{item.isChecked?'btnSelected':''}}" data-id="{{item.id}}" bindtap="time_click">{{item.value}}</button>
+          </view>
+        </view>
+    </view>
+  </view>
+  <view class="detail">
+      支付金额：
+    </view>
+  <button class="confirm" catchtap="toOrder">
+    确定选择时间
+  </button>
+</view>

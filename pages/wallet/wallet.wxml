@@ -1,0 +1,18 @@
+<!--pages/wallet/wallet.wxml-->
+<view class="walletContainer">
+  <view class="cash">
+    <image src="/img/wallet/wallet_icon.png"></image>
+    <text>￥：{{balance}}</text>
+  </view>
+  <view class="invest">
+    <view class="invest1">
+      <view class="btnContainer" wx:for='{{catshes}}' data-index='{{index}}' data-item='{{item.id}}'> 
+        <button class="btn {{btnId == item.id?'btnSelected':''}}" data-id='{{item.id}}' bindtap="wallet_click">{{item.name}}</button>
+      </view>
+      </view>
+    <view class="invest3">
+      <input placeholder="自定义" bindinput="customize"></input>
+    </view>
+    <button class="pay" catchtap="inverst_money">充值</button>
+  </view>
+</view>

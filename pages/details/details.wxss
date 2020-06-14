@@ -1,0 +1,38 @@
+/* pages/details/details.wxss */
+page{
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.title{
+  font-size: 60rpx;
+  font-weight: bold;
+  text-indent: 22rpx;
+  line-height: 100rpx;
+}
+.content{
+  font-size: 40rpx;
+  background-color: white;
+  width: 95%;
+  border-radius: 8rpx;
+  margin-left: 2.5%;
+  line-height: 120rpx;
+  text-indent: 20rpx;
+  letter-spacing: 1rpx;
+}
+.content view{
+  border-bottom: 2rpx solid #eee;
+}
+input{
+  width: 95%;
+  margin-left: 2.5%;
+  border-bottom: 1rpx solid #666;
+  text-indent: 5rpx;
+  font-size: 30rpx;
+}
+.time{
+  font-size: 32rpx;
+}

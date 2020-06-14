@@ -1,0 +1,19 @@
+<!--pages/Frent/Frent.wxml-->
+<view class="container">
+  <view class="title">我要禁租</view>
+  <view class="content">
+    <view>
+      车位主昵称：<text>123</text>
+    </view>
+    <view>
+      禁租车位地址：
+      <input type="text" placeholder-class="placeholder" placeholder="请输入禁租车位地址"></input>
+    </view>
+    <view>
+      车位原定出租时间：<text decode="true">\n2020-5-22 - 2020-5-25</text>
+    </view>
+  </view>
+  <button>
+    确认禁租
+  </button>
+</view>

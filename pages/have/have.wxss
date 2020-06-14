@@ -1,0 +1,101 @@
+/* pages/have/have.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+swiper{
+  width: 100%;
+  height: 400rpx;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+}
+.a{
+  height: 200rpx;
+  width:47%;
+  background:radial-gradient(180rpx at right bottom,transparent 110%,	#87CEFA 100%);
+  border-top-left-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+  border-top-right-radius: 8rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 20rpx;
+  z-index: 0;
+}
+.b{
+  height: 200rpx;
+  width:47%;
+  background:radial-gradient(180rpx at left bottom,transparent 110%,rgb(113,210,242) 100%);
+  border-top-left-radius: 8rpx;
+  border-bottom-right-radius: 8rpx;
+  border-top-right-radius: 8rpx;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+  margin-top: 20rpx;
+  z-index: 0;
+}
+.c{
+  height: 200rpx;
+  width:47%;
+  background:radial-gradient(180rpx at right top,transparent 100%,rgb(113,210,242) 100%);
+  border-top-left-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+  border-bottom-right-radius: 8rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+  margin-top: 10rpx;
+}
+.d{
+  height: 200rpx;
+  width:47%;
+  background:radial-gradient(180rpx at left top,transparent 110%,#87CEFA 100%);
+  border-top-right-radius: 8rpx;
+  border-bottom-left-radius: 8rpx;
+  border-bottom-right-radius: 8rpx;
+  margin-left: 10rpx;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+}
+.battle{
+  width: 340rpx;
+  height: 340rpx;
+  border-radius: 50%;
+  /* background-color:#00C5CD; */
+  margin-left: 27.5%;
+  margin-bottom: -50rpx;
+}
+.battle image{
+  width:180rpx;
+  height:180rpx;
+  margin-left:25%;
+  margin-top: 10%;
+}
+.contentrow{
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+  margin-top: -170rpx;
+  margin-bottom: -160rpx;
+}
+.contentposi{
+  margin-top: 180rpx;
+}
+.tipleft{
+  font-size: 40rpx;
+  float: left;
+  line-height: 70rpx;
+  letter-spacing: 8rpx;
+  margin: 25rpx 0 5rpx 30rpx;
+}
+.tipright{
+  font-size: 40rpx;
+  float: right;
+  line-height: 70rpx;
+  letter-spacing: 8rpx;
+  margin: 25rpx 30rpx 5rpx 0;
+}
+.tipcenter{
+  line-height: 20rpx;
+  margin-left: 90rpx;
+}

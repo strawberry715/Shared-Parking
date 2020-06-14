@@ -1,0 +1,8 @@
+<!--pages/openblue/openblue.wxml-->
+<view class="container">
+  <button catchtap="openblue" class="btn1">打开蓝牙</button>
+  <button class="btn2">关闭蓝牙</button>
+  <button catchtap="sendAT" class="btn3">写入数据</button>
+  <button catchtap="goUp" class="btn4">上升</button>
+  <button catchtap="goDown" class="btn5">下降</button>
+</view>

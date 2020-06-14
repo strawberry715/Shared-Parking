@@ -1,0 +1,40 @@
+<!--pages/want/want.wxml-->
+<view class="wantContainer">
+  <swiper indicator-dots indicator-color='#00BFFF' indicator-active-color='#4169E1'
+                          autoplay>
+    <swiper-item>
+      <image src="/img/want/swipper/1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/img/want/swipper/2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/img/want/swipper/3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/img/want/swipper/5.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="mainContainer">
+    <button catchtap="toSearch" class="want_search">搜索车位 
+      <image src="/img/want/search.png"></image>
+    </button>
+    <view class="navlockContainer">
+      <button class="want_nav" catchtap="toNavicate">导航
+        <image src="/img/want/navigate.png"></image>
+      </button>
+      <button class="want_lock" catchtap="openclock">开锁
+        <image src="/img/want/unlock.png"></image>
+      </button>
+    </view>
+     <view class="notepurseContainer">
+      <button class="want_note"  catchtap="toParknote">停车记录
+        <image src="/img/want/note.png"></image>
+      </button>
+      <button catchtap="toMywallet" class="want_purse">我的钱包
+        <image src="/img/want/wallet.png"></image>
+      </button>
+    </view>
+  </view>
+</view>
+
